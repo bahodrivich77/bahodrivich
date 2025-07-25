@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url("vatan.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+  text-shadow: 1px 1px 3px black;
+}
+
+header {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: #00d9ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+ul.social-links {
+  list-style: none;
+  padding: 0;
+}
+
+ul.social-links li {
+  margin-bottom: 5px;
+}
+
+.gallery {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery img {
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px black;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #006eff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #00bcd4;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+}
+
+form {
+text-align: left;
+
+}
